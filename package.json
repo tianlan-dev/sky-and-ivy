@@ -1,0 +1,17 @@
+{
+  "name": "sky-and-ivy",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Static Sky and Ivy site.",
+  "author": "Tian Lan",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tianlan-dev/sky-and-ivy"
+  },
+  "scripts": {
+    "start": "serve --listen tcp://${APP_HOST:-0.0.0.0}:${APP_PORT:?APP_PORT is required} ."
+  },
+  "devDependencies": {
+    "serve": "^14.2.4"
+  }
+}
